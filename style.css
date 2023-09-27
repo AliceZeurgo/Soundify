@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo{
+    background-image: url(./img/MacBook\ Air\ -\ 2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.quadradoprincipal{
+    background-color: #4F4F4F;
+    width: 900px;
+    height: 290px;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.barradepesquisa{
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    top: 200px;
+    width: 650px;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 2;
+}
+.simbolodepesquisa{
+    width: 40px;
+    height: 40px;
+     justify-content: flex-end;
+     top: 3px;
+}
